@@ -1,6 +1,6 @@
 # Pulse rate using kinect
 
-![Alt text](daf.PNG?raw=true "Optional Title")
+![Alt text](sample.png?raw=true "Optional Title")
 
 
 The basic approach is simple. When a person's heart pumps blood, the volume of blood is pushed through various veins and muscles. As the blood pumps through the muscles, particularly the face, the more light is absorbed, and the less brightness the a web camera sensor picks up. This change in brightness value is very minute and can be extracted using matematical tricks. The change in brightness is periodic. In otherwords, a signal or wave. If we can match the signal/wave to that of a blood pulse, we can calculate the heart rate.
